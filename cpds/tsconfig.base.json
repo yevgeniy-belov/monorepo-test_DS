@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@cpds/lib1": ["packages/lib1/src/index.ts"],
-      "@cpds/publish-me": ["packages/publish-me/src/index.ts"]
+      "@cpds/lib1": ["packages/lib1/src/index.scss"],
+      "@cpds/publish-me": ["packages/publish-me/src/index.scss"]
     }
   },
   "exclude": ["node_modules", "tmp"]

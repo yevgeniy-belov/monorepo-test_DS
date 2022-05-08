@@ -6,10 +6,10 @@
       "executor": "@nrwl/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/publish-me",
-        "main": "packages/publish-me/src/index.ts",
+        "outputPath": "dist/publish-me",
+        "main": "packages/publish-me/src/index.scss",
         "tsConfig": "packages/publish-me/tsconfig.lib.json",
-        "assets": ["packages/publish-me/*.md"]
+        "assets": ["packages/publish-me/**/*.scss"]
       }
     },
     "publish": {

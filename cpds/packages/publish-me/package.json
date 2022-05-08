@@ -1,5 +1,8 @@
 {
   "name": "@cpds/publish-me",
-  "version": "0.0.1",
-  "type": "commonjs"
+  "version": "0.0.3",
+  "type": "commonjs",
+  "dependencies": {
+    "@cpds/lib1": "0.0.2"
+  }
 }

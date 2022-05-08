@@ -19,6 +19,18 @@
         "main": "packages/lib1/src/index.scss",
         "assets": ["packages/lib1/src/**/*.scss"]
       }
+    },
+    "publish": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "node tools/scripts/publish.mjs lib1 {args.ver} {args.tag}"
+      },
+      "dependsOn": [
+        {
+          "projects": "self",
+          "target": "build"
+        }
+      ]
     }
   },
   "tags": ["scope:public", "type:util", "target:all"]
